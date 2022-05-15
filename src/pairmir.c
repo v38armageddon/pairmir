@@ -2,7 +2,6 @@
 #include <conio.h>
 #include <string.h>
 #include "time.c"
-#include "date.c"
 char user_input[];
 
 int main() {
