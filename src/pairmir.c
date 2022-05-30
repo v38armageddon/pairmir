@@ -1,39 +1,30 @@
 #include <stdio.h>
-#include <conio.h>
-#include <string.h>
-#include "time.c"
-char user_input[];
+// #include "time.c"
+char user_input[20];
 
 int main() {
     printf("Hello! I'm Pairmir!\n");
     printf("I'm a simple chatbot.\n");
     printf("For a list of what I can do, type 'help'.\n");
+    printf("> ");
+    scanf(user_input);
     while(1) {
-        printf("> ");
-        gets(user_input);
-
-        // Exit the program if the user want to exit
-        if(strcmn(user_input,"exit")==0) {
+         // Exit the program if the user want to exit
+        if(user_input == "exit") {
             printf("Goodbye! Have a nice day!\n");
             break;
         }
 
-        elif(strcmn(user_input,"help")==0) {
-            printf("For a list of all commands, you can check in the wiki of the bot\n");
-            printf("Do you want to see the wiki? (y/n) ");
-            if(strcmn(user_input,"y")==0) {
-                printf("Okay, here you go!\n");
-                system("start https://github.com/v38armageddon/pairmir/wiki");
-            elif(strcmn(user_input,"n")==0) {
-                printf("Okay, I won't show you the wiki.\n");
-            }
+        else if (user_input == "help") {
+            printf("For a list of all commands, you can check in the wiki of the bot (https://github.com/v38armageddon/pairmir/wiki).\n");
         }
 
-        elif(strcmn(user_input,"Show me the time")==0) {
-            time();
+        else if (user_input == "Show me the time") {
+            //time();
+            printf("apples and banana");
         }
 
-        elif(strcmn(user_input,"How are you?")==0) {
+        else if (user_input =="How are you?") {
             printf("I'm fine, thank you!\n");
         }
 

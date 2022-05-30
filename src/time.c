@@ -1,10 +1,8 @@
 #include "pairmir.c"
 #include <stdio.h>
-#include <conio.h>
-#include <string.h>
 #include <time.h>
 
-int time() {
+void time() {
     time_t s, val =1;
     struct tm* current_time;
     // Time in seconds
