@@ -1,7 +1,7 @@
-# pairmir
+# 🤖 Pairmir
 A simple chatting bot.
 
-<!--## Installation
+## Installation
 
 To launch the bot, you need to follow the following commands:
 
@@ -9,7 +9,7 @@ To launch the bot, you need to follow the following commands:
 
 ``$ make``
 
-``$ ./pairmir``-->
+``$ ./pairmir``
 
 This bot is under the license: GPL-3.0
 
