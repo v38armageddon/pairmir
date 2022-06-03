@@ -13,7 +13,7 @@ int main() {
     while (1) {
         printf("> ");
         scanf("%s", user_input);
-        switch () {
+        switch (1, 2) {
             case 1:
                 utility();
             case 2:
