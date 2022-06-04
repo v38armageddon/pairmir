@@ -2,7 +2,6 @@
 #include "tchat.h"
 #include "utility.h"
 
-// #include "time.c"
 char user_input[20];
 
 int main() {
