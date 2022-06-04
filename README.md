@@ -3,7 +3,7 @@ A simple chatting bot.
 
 ## Installation
 
-To launch the bot, you need to follow the following commands:
+To launch the bot, you need to type the following commands:
 
 ``$ cd src``
 
