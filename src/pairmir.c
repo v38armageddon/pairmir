@@ -1,10 +1,16 @@
 #include <stdio.h>
 #include "tchat.h"
+#include "pairmir.h"
+#include "tchat.h"
 #include "utility.h"
 
 char user_input[20];
 
-int main() {
+// Point the utility.c and the tchat.c files
+char *utility (void);
+char *tchat (void);
+
+int main(char utility (void), char tchat (void)) {
     printf("Hello! I'm Pairmir!\n");
     printf("I'm a simple chatbot.\n");
     printf("For a list of what I can do, type 'help'.\n");

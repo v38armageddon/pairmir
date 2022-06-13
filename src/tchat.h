@@ -1,6 +1,7 @@
 #ifndef TCHAT_H
 #define TCHAT_H
 
-int tchat();
+// Tell it exist
+char *tchat (void);
 
 #endif

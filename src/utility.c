@@ -1,8 +1,13 @@
 #include <stdio.h>
 #include <time.h>
 #include "pairmir.h"
+#include "tchat.h"
+#include "utility.h"
 
-void utility() {
+// Point the main program (pairmir.c)
+char *main (int);
+
+void utility(char main (int)) {
     // Exit the program if the user want to exit
     if(user_input == "exit") {
         printf("Goodbye! Have a nice day!\n");
@@ -23,3 +28,4 @@ void utility() {
         printf("The time is: %02d:%02d:%02d%s", current_time->tm_hour, current_time->tm_min, current_time->tm_sec, "\n");
     }
 }
+

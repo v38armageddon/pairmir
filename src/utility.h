@@ -1,6 +1,7 @@
 #ifndef UTILITY_H
 #define UTILITY_H
 
-int utility();
+// Tell it exist
+char *utility (void);
 
 #endif
