@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "tchat.h"
 #include "pairmir.h"
 #include "tchat.h"
 #include "utility.h"
@@ -24,7 +23,7 @@ int main(char utility (void), char tchat (void)) {
             case 2:
                 tchat();
             default:
-                printf("I don't understand what you want to do.\n");
+                printf("Pairmir: I don't understand what you want to do.\n");
         }
     }
     return 0;
