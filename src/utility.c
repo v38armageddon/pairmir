@@ -4,10 +4,7 @@
 #include "tchat.h"
 #include "utility.h"
 
-// Point the main program (pairmir.c)
-char *main (int);
-
-void utility(char main (int)) {
+void utility(int id, char *pairmir) {
     // Exit the program if the user want to exit
     if(user_input == "exit") {
         printf("Pairmir: Goodbye! Have a nice day!\n");

@@ -3,11 +3,20 @@
 #include "tchat.h"
 #include "utility.h"
 
-// Point the main program (pairmir.c)
-char *main (int);
-
-void tchat(char main (int)) {
-    if (user_input =="How are you?") {
+void tchat(int id, char *pairmir) {
+    if (user_input == "How are you?") {
         printf("Pairmir: I'm fine, thank you!\n");
+    }
+
+    else if (user_input == "What's your name?") {
+        printf("Pairmir: My name is Pairmir.");
+    }
+
+    else if (user_input == "What is your creator?") {
+        printf("Pairmir: My creator is v38armageddon!");
+    }
+
+    else if (user_input == "What is Pairmir?") {
+        printf("Pairmir: It's me! A tchat bot!");
     }
 }

@@ -3,6 +3,6 @@
 
 // Include the user input and the main program
 char user_input[20];
-char *main (int);
+void pairmir(int main, int id, char *utility, char *tchat);
 
 #endif

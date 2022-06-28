@@ -2,6 +2,6 @@
 #define TCHAT_H
 
 // Tell it exist
-char *tchat (void);
+void tchat (int id, char *pairmir);
 
 #endif

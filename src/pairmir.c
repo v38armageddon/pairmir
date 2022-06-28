@@ -5,26 +5,25 @@
 
 char user_input[20];
 
-// Point the utility.c and the tchat.c files
-char *utility (void);
-char *tchat (void);
-
-int main(char utility (void), char tchat (void)) {
-    printf("Hello! I'm Pairmir!\n");
-    printf("I'm a simple chatbot.\n");
-    printf("For a list of what I can do, type 'help'.\n");
+void pairmir(int main, int id, char *utility, char *tchat) {
     // make a user input who loop
     while (1) {
         printf("> ");
         scanf("%s", user_input);
-        switch (1, 2) {
-            case 1:
+        switch (*utility, *tchat) {
+            case *utility:
                 utility();
-            case 2:
+            case *tchat:
                 tchat();
             default:
                 printf("Pairmir: I don't understand what you want to do.\n");
         }
     }
     return 0;
+}
+
+int main(void) {
+    printf("Hello! I'm Pairmir!\n");
+    printf("I'm a simple chatbot.\n");
+    printf("For a list of what I can do, type 'help'.\n");
 }

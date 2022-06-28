@@ -2,6 +2,6 @@
 #define UTILITY_H
 
 // Tell it exist
-char *utility (void);
+void utility (int id, char *pairmir);
 
 #endif
