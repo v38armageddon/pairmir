@@ -17,6 +17,6 @@ void tchat(int id, char *pairmir) {
     }
 
     else if (user_input == "What is Pairmir?") {
-        printf("Pairmir: It's me! A tchat bot!");
+        printf("Pairmir: It's me! I'm a tchat bot but also a utility bot!");
     }
 }
