@@ -11,6 +11,6 @@ To launch the bot, you need to type the following commands:
 
 ``$ ./pairmir``
 
-This bot is under the license: GPL-3.0
+This bot is under the license: The Unlicense
 
 # ⚠ Working in progress! ⚠
